@@ -33,7 +33,7 @@ function MessageContainer() {
    if(selectedChatData._id){
     if(selectedChatType === "contact") getMessages()
    }
-  },[selectedChatMessages, selectedChatType, selectedChatData])
+  },[ selectedChatType, selectedChatData])
 
   useEffect(()=>{
     if(scrollRef.current){
