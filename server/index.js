@@ -8,6 +8,7 @@ import contactRouter from './routes/ContactRoutes.js';
 import MessagesRouter from './routes/MessagesRoutes.js';
 import setupSocket from './socket.js';
 import { Server } from 'socket.io';
+import { createServer } from 'http';
 
 
 
@@ -39,10 +40,10 @@ app.get('/',function (req,res) {
     res.send('welcome')
 })
 
-const server=app.listen(process.env.PORT,function(){
-    console.log("Server started on port "+process.env.PORT)
-})
-// const server = createServer(app);
+// const server=app.listen(process.env.PORT,function(){
+//     console.log("Server started on port "+process.env.PORT)
+// })
+ const server = createServer(app);
 
 setupSocket(server)
 
