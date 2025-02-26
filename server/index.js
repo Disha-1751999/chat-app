@@ -39,9 +39,10 @@ app.get('/',function (req,res) {
     res.send('welcome')
 })
 
-const server=app.listen(process.env.PORT,function(){
-    console.log("Server started on port "+process.env.PORT)
-})
+// const server=app.listen(process.env.PORT,function(){
+//     console.log("Server started on port "+process.env.PORT)
+// })
+const server = createServer(app);
 
 setupSocket(server)
 
