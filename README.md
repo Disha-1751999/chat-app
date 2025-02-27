@@ -154,13 +154,13 @@ Configured CORS to allow only the client domain access to the API.
 # DEMO
 
 ## Login Register Page
-![Login Register](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/register.PNG)
-## Login Page
-![Login](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/login.PNG)
+![Login Register](https://github.com/Disha-1751999/chat-app/blob/main/client/public/1740579575812.jpg)
+## Profile Page
+![profile](https://github.com/Disha-1751999/chat-app/blob/main/client/public/1740579559042.jpg)
 ## Home Page
-![Home](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/home.PNG)
-## Task Create Page
-![Task Create](https://github.com/Disha-1751999/task-manager-/blob/main/client/public/asset/create.PNG)
+![Home](https://github.com/Disha-1751999/chat-app/blob/main/client/public/1740579516243.jpg)
+## Emoji Interface
+![Emoji](https://github.com/Disha-1751999/chat-app/blob/main/client/public/1740579604606.jpg)
 
 
 
